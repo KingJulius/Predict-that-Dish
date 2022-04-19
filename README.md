@@ -1,4 +1,4 @@
-# Predict that Dish {style=text-align:center}
+# Predict that Dish
 
 ![](home_page.png)
 
