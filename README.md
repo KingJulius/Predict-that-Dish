@@ -4,34 +4,30 @@
 
 ## Objective
 
-A Web Application that uses a trained Neural Network hosted by a server to predict the label of an input image sent by the client
+A Web Application that uses a trained Neural Network hosted by a server to predict the label of an input image sent by the client.
 
 ## Architecture
 
-Front End - ReactJS
+Front End - Built using ReactJS
 
-Back End - Flask
+Back End - Deployed using Flask
 
 Model - Developed using TensorFlow
 
-# Neural Network Development
+## Neural Network Development
 
-Training Dataset: https://www.kaggle.com/datasets/kmader/food41
+[Training Dataset](https://www.kaggle.com/datasets/kmader/food41)
 
-Training Code with Results and Analysis:
+Training Code with Results and Analysis: [link](https://github.com/KingJulius/Predict-that-Dish/blob/main/training/efficientnetb0-train.ipynb)
 
-[link](https://github.com/KingJulius/Predict-that-Dish/blob/main/training/efficientnetb0-train.ipynb)
-
-Trained Models:
-
-[link](https://github.com/KingJulius/Predict-that-Dish/tree/main/server/artifacts/efficientnetb0)
+Trained Models:[link](https://github.com/KingJulius/Predict-that-Dish/tree/main/server/artifacts/efficientnetb0)
 
 
-# To run the web application
+## To run the web application
 
-1. Clone this Repository
-2. Follow Client Side and Server Side setup specified below
-
+1. Clone this Repository.
+2. Follow Setup for the Client and Server Side as mentioned.
+3. Run the Flask server and React Application and the project is ready run!
 
 
 # Client Side
