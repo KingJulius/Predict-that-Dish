@@ -1,4 +1,4 @@
-# Predict that Dish
+# Predict that Dish {style=text-align:center}
 
 ![](home_page.png)
 
@@ -12,7 +12,7 @@ Front End - Built using ReactJS
 
 Back End - Deployed using Flask
 
-Model - Developed using TensorFlow
+Model - Trained using TensorFlow
 
 ## Neural Network Development
 
@@ -20,19 +20,20 @@ Model - Developed using TensorFlow
 
 Training Code with Results and Analysis: [link](https://github.com/KingJulius/Predict-that-Dish/blob/main/training/efficientnetb0-train.ipynb)
 
-Trained Models:[link](https://github.com/KingJulius/Predict-that-Dish/tree/main/server/artifacts/efficientnetb0)
+Trained Models: [link](https://github.com/KingJulius/Predict-that-Dish/tree/main/server/artifacts/efficientnetb0)
 
 
-## To run the web application
+## Procedure To run the web application:
 
 1. Clone this Repository.
-2. Follow Setup for the Client and Server Side as mentioned.
-3. Run the Flask server and React Application and the project is ready run!
+2. Follow Setup for the Client and Server Side as mentioned below.
+3. Run the Flask server and React Application which is also specified below.
+4. Ready for use!
 
 
-# Client Side
+## Client Side
 
-## Setup for ReactJS
+### Setup for ReactJS
 
 1. Install Nodejs ([Setup instructions](https://nodejs.org/en/download/package-manager/))
 2. Install NPM ([Setup instructions](https://www.npmjs.com/get-npm))
@@ -46,7 +47,7 @@ npm audit fix
 
 4. Change API url in `.env`.
 
-## Running the client
+### Running the Client:
 
 1. Get inside `client` folder
 
@@ -62,9 +63,9 @@ npm run start
 ```
 
 
-# Server Side
+## Server Side
 
-## Flask Web App Setup & Installtion
+### Flask Web App Setup & Installtion:
 
 1. Make sure you have the latest version of Python installed.
 
@@ -73,7 +74,7 @@ npm run start
 pip install requirements.txt
 ```
 
-## Running The App
+### Running The Server:
 
 ```bash
 python server.py
