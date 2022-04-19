@@ -9,8 +9,30 @@ A Web Application that uses a trained Neural Network hosted by a server to predi
 ## Architecture
 
 Front End - ReactJS
+
 Back End - Flask
-Model - TensorFlow
+
+Model - Developed using TensorFlow
+
+# Neural Network Development
+
+Training Dataset: https://www.kaggle.com/datasets/kmader/food41
+
+Training Code with Results and Analysis:
+
+[link](https://github.com/KingJulius/Predict-that-Dish/blob/main/training/efficientnetb0-train.ipynb)
+
+Trained Models:
+
+[link](https://github.com/KingJulius/Predict-that-Dish/tree/main/server/artifacts/efficientnetb0)
+
+
+# To run the web application
+
+1. Clone this Repository
+2. Follow Client Side and Server Side setup specified below
+
+
 
 # Client Side
 
@@ -43,11 +65,17 @@ cd client
 npm run start
 ```
 
+
 # Server Side
 
 ## Flask Web App Setup & Installtion
 
-Make sure you have the latest version of Python installed.
+1. Make sure you have the latest version of Python installed.
+
+2. Install All the Dependencies.
+```bash
+pip install requirements.txt
+```
 
 ## Running The App
 
