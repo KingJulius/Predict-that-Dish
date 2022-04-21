@@ -8,11 +8,15 @@ A Web Application that uses a trained Neural Network hosted by a server to predi
 
 ## Architecture
 
+![](Architecture.png)
+
 Front End - Built using ReactJS
 
 Back End - Deployed using Flask
 
 Model - Trained using TensorFlow
+
+Deployed using the AWS EC2 instance.
 
 ## Neural Network Development
 
