@@ -178,6 +178,8 @@ sudo pip3 install -r /home/ubuntu/Predict-that-Dish/server/requirements.txt
 python3 /home/ubuntu/Predict-that-Dish/server/server.py
 ```
 
+After successfully performing all the above steps, the Web Service can be accessed over the Internet using the EC2 Instance! 
+
 ## Future Scope:
 
 The model could be improved by increasing the number of layers and training the model over many more epochs. To improve performance even further we could potentially isolate the background noise by using an object detection network to create bounding boxes to focus on the relevant part of the image. A drawback to consider is the limited type of labels and would need to increase range for wide scale adoption in current stage. Will improve upon current results in the near future.
