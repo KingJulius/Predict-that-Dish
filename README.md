@@ -137,14 +137,14 @@ python server.py
 
 5. After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
 
-   1. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
+   1. Create this file /etc/nginx/sites-available/ptd.conf. The file content looks like this,
 
    ```
    server {
        listen 80;
            server_name bhp;
-           root /home/ubuntu/BangloreHomePrices/client;
-           index app.html;
+           root /home/ubuntu/Predict-that-Dish/client/build;
+           index index.html;
            location /api/ {
                 rewrite ^/api(.*) $1 break;
                 proxy_pass http://127.0.0.1:5000;
@@ -155,7 +155,7 @@ python server.py
    2. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
 
    ```
-   sudo ln -v -s /etc/nginx/sites-available/bhp.conf
+   sudo ln -v -s /etc/nginx/sites-available/ptd.conf
    ```
 
    3. Remove symlink for default file in /etc/nginx/sites-enabled directory,
@@ -180,6 +180,7 @@ python3 /home/ubuntu/Predict-that-Dish/server/server.py
 
 After successfully performing all the above steps, the Web Service can be accessed over the Internet using the EC2 Instance! 
 
+Link:  
 ## Future Scope:
 
 The model could be improved by increasing the number of layers and training the model over many more epochs. To improve performance even further we could potentially isolate the background noise by using an object detection network to create bounding boxes to focus on the relevant part of the image. A drawback to consider is the limited type of labels and would need to increase range for wide scale adoption in current stage. Will improve upon current results in the near future.
